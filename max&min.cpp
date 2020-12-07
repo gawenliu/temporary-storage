@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h> 
+char max[20],min[20],str[1000][20];
 int main()
 {
-	char max[20],min[20],str[1000][20];
 	int length=0,x=0;
 	scanf("%s",str[x]);
 	length=strlen(str[x]);
